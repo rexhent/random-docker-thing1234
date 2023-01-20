@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  ex0702:
+    image: ex0702
+    build:
+      context: .
+      dockerfile: ./Dockerfile
